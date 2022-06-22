@@ -1,0 +1,203 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    position:relative;
+    height: 56px;
+}
+
+nav {
+    position:fixed;
+    width: 100%;
+    height: 56px; 
+    background-color: #212121;
+    z-index: 2; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 70px ;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted white;
+    padding-right: 36px;
+
+}
+
+.subheader {
+    position: absolute;
+    top: 56px;
+    width: 100%;    
+    height: 87px;
+    background:rgba(0,0,0, .6);         
+}
+
+.subheader .subheader_logo {
+    display: block;
+    min-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px; 
+    font-weight: 100;
+    color: #FFFFFF;        
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    color: #FFFFFF;    
+    text-align: right;
+}
+
+.subheader .subheader_tel {
+    display: block;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    text-transform: uppercase;
+}
+
+.promo {    
+    min-height: 800px;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;    
+}
+
+.promo .promo_header {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    line-height: 60px;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    line-height: 36px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.promo .promo_btn {       
+    display: block;
+    margin: 116px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    text-transform: uppercase;
+}
+
+.reason {
+    min-height: 855px;
+}
+
+.reason .label{
+    display:flex;
+    text-transform: uppercase;
+    margin: 24px auto 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;    
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason .title {
+    margin-top: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;    
+    color: #222222;
+
+}
+
+.reason .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;    
+}
+
+.reason .reason_around {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    background-color:#1EACC7;;
+}
+
+.reason .reason_descr {
+    width: 370px;    
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+
+
+.reason span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
